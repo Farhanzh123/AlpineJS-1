@@ -15,7 +15,7 @@
             <button type="button" class="btn" @click="open = !open" x-text="open ? 'tutup' : 'buka'" x-bind:class="open ? 'btn-danger' : 'btn-success'"></button>
             <h1 x-show="open" x-transition:enter.origin.top.right.duration.1000ms
             x-transition:leave.duration.400ms>
-                Nilai <span x-text="Matakuliah"></span> : <span x-text="nilai"></span>
+                Nilai <span x-text="Matakuliah"></span> : <span x-text="nilai"></span> (ini outputnya)
             </h1>
         </div>
     </center>
